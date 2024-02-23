@@ -4,11 +4,11 @@ import time
 GPIO.setmode(GPIO.BCM)
 
 # Set up GPIO pins
-motorA_in1 = 17
-motorA_in2 = 18
+motorA_in1 = 5
+motorA_in2 = 6
 
-motorB_in1 = 22
-motorB_in2 = 23
+motorB_in1 = 23
+motorB_in2 = 24
 
 GPIO.setup(motorA_in1, GPIO.OUT)
 GPIO.setup(motorA_in2, GPIO.OUT)
